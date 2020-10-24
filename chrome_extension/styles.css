@@ -1,0 +1,17 @@
+body {
+  width: 25em;
+  padding: 1em;
+}
+
+.chatarea {
+  padding: 0%;
+}
+
+.messageItem {
+  width: inherit;
+  background-color: lightgray;
+  font: 1em sans-serif;
+  padding: 0.5em;
+  margin: 0em 0em 0.5em 0em;
+  list-style-type: none;
+}

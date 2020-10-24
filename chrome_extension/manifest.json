@@ -1,0 +1,13 @@
+{
+  "name": "Azure Devops Bot",
+  "version": "1.0",
+  "description": "Azure Devops Bot",
+  "manifest_version": 2,
+  "author": "Manan, Srushti, Shubham",
+  "browser_action": {
+    "default_popup": "index.html"
+   },
+   "permissions": [
+    "activeTab"
+    ]
+}
