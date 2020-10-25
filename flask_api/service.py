@@ -1,8 +1,10 @@
 from flask import Flask
+from flask_cors import CORS
 
 from flask_api.azure_adapter import get_build_definitions, get_pipeline_definition
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/')
 def hello_world():
